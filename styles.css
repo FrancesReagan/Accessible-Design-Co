@@ -1,0 +1,73 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(33, 10, 10);
+  font-size: 8rem;
+
+}
+#ADC-logo {
+  text-align: center; 
+  image-resolution: crisp;
+}
+.navbar {
+  background-color: #48a40f;
+  font-family: Geneva
+  display: flex;
+  float: right; vertical;
+
+}
+
+ul {
+  display: flex;
+  flex-direction: column-reverse;
+  list-style-type: none;
+}
+
+ul>li>a {
+  padding: 0 12px;
+  color: rgb(33, 10, 10)
+  font-size: 1rem;
+  width: 100%
+}
+
+li a {
+  font-family:Calibri;
+  font-size: 3rem;
+  font-style:none;
+    display: block;
+    color: #10032b;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+li a:visited {
+  background-color: #012b45;
+  color: #03010f;
+}
+
+li a:hover {
+  background-color: #f5f10c;
+  color: #000000;
+}
+
+@media screen and (max-width: 992px) {
+  .navbar {
+    background-color: #05334b;
+    background: linear-gradient(to right, #40B6C0 40%, #2689B9 80%);
+  } 
+
+  ul>li>a {
+    font-size: 1rem;
+    padding: 0 6px;
+  }
+
+  
+}
+
+/* ------About page styles--- */
+/* Services page styles */
+/* Contact page styles */
