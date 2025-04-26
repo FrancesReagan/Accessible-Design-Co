@@ -14,10 +14,10 @@ h1 {
   image-resolution: crisp;
 }
 .navbar {
-  background-color: #48a40f;
+  background-color: #89e251;
   font-family: Geneva
   display: flex;
-  float: right; vertical;
+  float: right
 
 }
 
@@ -29,7 +29,7 @@ ul {
 
 ul>li>a {
   padding: 0 12px;
-  color: rgb(33, 10, 10)
+  color: rgb(24, 6, 6)
   font-size: 1rem;
   width: 100%
 }
@@ -39,14 +39,14 @@ li a {
   font-size: 3rem;
   font-style:none;
     display: block;
-    color: #10032b;
+    color: #1a2b03;
     padding: 8px 0 8px 16px;
     text-decoration: none;
 }
 
 li a:visited {
-  background-color: #012b45;
-  color: #03010f;
+  background-color: #170b5d;
+  color: #0f0629;
 }
 
 li a:hover {
@@ -54,20 +54,36 @@ li a:hover {
   color: #000000;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 600px) {
   .navbar {
-    background-color: #05334b;
+    background-color: #074f76;
     background: linear-gradient(to right, #40B6C0 40%, #2689B9 80%);
   } 
 
   ul>li>a {
-    font-size: 1rem;
+    font-size: 2rem;
     padding: 0 6px;
   }
 
   
 }
 
+@media screen and (max-width: 1200px) {
+  .navbar {
+    background-color: #6a2cc0;
+    background: linear-gradient(to right, #9283a8 40%, #5a4dd2 80%);
+  } 
+
+  ul>li>a {
+    font-size: 3rem;
+    padding: 0 6px;
+  }
+
+  
+}
 /* ------About page styles--- */
+
 /* Services page styles */
+
+
 /* Contact page styles */
