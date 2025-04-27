@@ -19,7 +19,7 @@ h1 {
 }
 .navbar {
   background-color: #89e251;
-  font-family: Geneva
+  font-family: Calibri
   display: flex;
   flex-direction: column;
   
@@ -94,7 +94,8 @@ li a:hover {
 
 }
 /* Services page styles */
-#Services {* {
+#Services { 
+  * {
   box-sizing: border-box;
 }
 
@@ -186,9 +187,10 @@ i {
     }
   }
 
+}
 /* Contact page styles */
 #Contact {
-  
+
 
 }
 /* Footer */
