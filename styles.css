@@ -170,12 +170,12 @@ i {
 }
 
 .service-card:hover {
-  box-shadow: 0 0 30px 0 rgb(12, 101, 12);
+  box-shadow: 0 0 30px 0 rgb(6, 182, 17);
   transform: scale(1.1);
 }
 
 .service-card a {
-  color: lightgreen;
+  color: rgb(3, 39, 3);
   text-decoration: none;
 }
 
@@ -188,30 +188,8 @@ i {
 
 /* Contact page styles */
 #Contact {
+  
 
 }
 /* Footer */
 .footer {
-  background-color: #333333;
-  margin-top: 100px;
-}
-.social-links {
-  display: flex;
-  justify-content: space-between;
-  align-items: right;
-  margin: 0 auto;
-  padding: 20px 40px;
-  width: 800px;
-  color: #ffffff;
-}
-.social-links p {
-  display: inline;
-  font-size: 1rem;
-}
-.social-links ion-icon {
-  padding-right: 10px;
-}
-.social-link {
-  display: flex;
-  align-items: center;
-}
