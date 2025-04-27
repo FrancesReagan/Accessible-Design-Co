@@ -20,26 +20,29 @@ h1 {
 a.btn { 
   width: 250px; 
   padding: 10px 25px 10px 25px; 
-  font-family: Verdana, Geneva, Tahoma, sans-serif; 
+  font-family: 'Poppins', sans-serif;
   font-size: 2rem; 
   text-decoration: none; 
-  color: #171b20; 
+  color: #13161a; 
   text-shadow: -1px -1px 2px #618926; 
-  background: -moz-linear-gradient(#98ba40, #a6c250 35%, #618926); 
-  background: -webkit-gradient(linear,left top,left bottom,color-stop(0, #98ba40),color-stop(.35, #10e762),color-stop(1, #618926));
+  background: -moz-linear-gradient(#98ba40, #a6c250 35%, #0f743e); 
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(0, #40ba85),color-stop(.35, #10c7e7),color-stop(1, #1ac8ce));
   border: 1px solid #618926; 
   border-radius: 3px; 
   -moz-border-radius: 3px; 
-  -webkit-border-radius: 3px; } 
+  -webkit-border-radius: 3px; 
+} 
+
+/* call to action in hero */
   a.btn:hover { 
-    text-shadow: -1px -1px 2px #465f97; 
-    background: -moz-linear-gradient(#6594d6, #1e3b73 75%, #6c8bd3); 
-  background: -webkit-gradient(linear,left top,left bottom,color-stop(0, #728db3),color-stop(.75, #9db2dd),color-stop(1, #456ac1)); 
-  border: 1px solid #0f2557; 
+    text-shadow: -1px -1px 2px #909746; 
+    background: -moz-linear-gradient(#d7dce3, #aab9d6 75%, #6c8bd3); 
+   background: -webkit-gradient(linear,left top,left bottom,color-stop(0, #728db3),color-stop(.75, #9db2dd),color-stop(1, #09086b)); 
+   border: 1px solid #e1e438; 
 }
 .navbar {
   background-color: #89e251;
-  font-family: Geneva
+  font-family: 'Poppins', sans-serif;
   display: flex;
   flex-direction: column;
   
@@ -63,7 +66,7 @@ ul>li>a {
 }
 
 li a {
-  font-family:Calibri;
+  font-family:'Poppins', sans-serif;
   font-size: 3rem;
   font-style:none;
     display: block;
@@ -220,7 +223,7 @@ body{
     background: #4068cd; 
 }
 body, input,textarea, a{
-    font-family: Calibri;
+    font-family: 'Poppins', sans-serif;
 }
 }
 #section-wrapper{
