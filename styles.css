@@ -222,7 +222,7 @@ body, input,textarea, a{
     float: left;
     display: block;
     border-radius: 30px 0px 0px 30px;
-    background: linear-gradient(144deg, rgb(39, 117, 156) 0%, rgb(39, 153, 157) 49%);
+    background: linear-gradient(144deg, rgb(6, 113, 38) 0%, rgb(39, 153, 157) 49%);
     color: #fff;
 }
 .info-title{
@@ -329,14 +329,14 @@ body, input,textarea, a{
     height: 60px;
     margin: 0px 12px;
     border-radius: 30px;
-    font-size: 20px;;
+    font-size: 1.125rem;;
     font-weight: 700;
     outline: none;
     border:none;
     cursor: pointer;
     color:#fff;
     text-align: center;
-    background: #F44770;
+    background: #e13a14;
     box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #ffffff;
     transition: .5s;
 }
