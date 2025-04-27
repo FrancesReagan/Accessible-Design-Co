@@ -10,36 +10,77 @@ h1 {
 
 }
 #ADC-logo {
-  text-align: center; 
-  background: linear-gradient(to right, #40B6C0 40%, #2689B9 80%);
   position:relative;
   display:block;
   width:100%;
   height:100%;
 }
-a.btn { 
-  width: 250px; 
-  padding: 10px 25px 10px 25px; 
-  font-family: 'Poppins', sans-serif;
-  font-size: 2rem; 
-  text-decoration: none; 
-  color: #13161a; 
-  text-shadow: -1px -1px 2px #618926; 
-  background: -moz-linear-gradient(#98ba40, #a6c250 35%, #0f743e); 
-  background: -webkit-gradient(linear,left top,left bottom,color-stop(0, #40ba85),color-stop(.35, #10c7e7),color-stop(1, #1ac8ce));
-  border: 1px solid #618926; 
-  border-radius: 3px; 
-  -moz-border-radius: 3px; 
-  -webkit-border-radius: 3px; 
-} 
 
-/* call to action in hero */
-  a.btn:hover { 
-    text-shadow: -1px -1px 2px #909746; 
-    background: -moz-linear-gradient(#d7dce3, #aab9d6 75%, #6c8bd3); 
-   background: -webkit-gradient(linear,left top,left bottom,color-stop(0, #728db3),color-stop(.75, #9db2dd),color-stop(1, #09086b)); 
-   border: 1px solid #e1e438; 
+.hero {
+  position: relative;
+  background:  center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(96, 241, 120, 0.6); /* Black color with 60% opacity */
+  z-index: 1; /* Ensure the overlay is behind the content */
+}
+
+.hero-content {
+  text-align: center;
+  color: #0e030f;
+  z-index: 2; /* Ensure the content is on top of the overlay */
+}
+
+.hero-title {
+  font-size: 6em;
+  margin-bottom: 20px;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.hero-subtitle {
+  font-size: 4em;
+  margin-bottom: 30px;
+  animation: fadeInUp 1s ease-in-out 0.5s;
+}
+
+.hero-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 2em;
+  text-decoration: none;
+  color: #200c0c;
+  background-color: #f52424;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.hero-button:hover {
+  background-color: #08ceff;
+}
+
+@keyframes fadeInUp {
+  from {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+
 .navbar {
   background-color: #89e251;
   font-family: 'Poppins', sans-serif;
