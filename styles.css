@@ -9,6 +9,8 @@ h1 {
   font-size: 8rem;
 
 }
+
+/* LOGO STYLING */
 #ADC-logo {
   position:relative;
   display:block;
@@ -16,6 +18,7 @@ h1 {
   height:100%;
 }
 
+/* HERO or CALL TO ACTION SECTION SYTLING  */
 .hero {
   position: relative;
   background:  center/cover no-repeat;
@@ -32,36 +35,37 @@ h1 {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(96, 241, 120, 0.6); /* Black color with 60% opacity */
-  z-index: 1; /* Ensure the overlay is behind the content */
+  background-color: rgba(96, 241, 120, 0.6);
+  z-index: 1;
 }
 
 .hero-content {
   text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
   color: #0e030f;
-  z-index: 2; /* Ensure the content is on top of the overlay */
+  z-index: 2;
 }
 
 .hero-title {
-  font-size: 6em;
+  font-size: 5em;
   margin-bottom: 20px;
   animation: fadeInUp 1s ease-in-out;
 }
 
 .hero-subtitle {
-  font-size: 4em;
+  font-size: 3em;
   margin-bottom: 30px;
   animation: fadeInUp 1s ease-in-out 0.5s;
 }
 
 .hero-button {
   display: inline-block;
-  padding: 10px 20px;
-  font-size: 2em;
+  padding: 30px 20px;
+  font-size: 1.8em;
   text-decoration: none;
   color: #200c0c;
   background-color: #f52424;
-  border-radius: 5px;
+  border-radius: 40px;
   transition: background-color 0.3s ease-in-out;
 }
 
@@ -80,10 +84,10 @@ h1 {
   }
 }
 
-
+/* NAVIGATION BAR STYLING */
 .navbar {
   background-color: #89e251;
-  font-family: 'Poppins', sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
   display: flex;
   flex-direction: column;
   
@@ -126,6 +130,7 @@ li a:hover {
   color: #000000;
 }
 
+/* RESPONSIVE STYLING FOR NAV BAR */
 @media screen and (max-width: 600px) {
   .navbar {
     background-color: #074f76;
@@ -153,10 +158,14 @@ li a:hover {
 
   
 }
-/* ------About page styles--- */
+
+
+/* ABOUT US HISTORY STYLING */
 #About-Us {
 
 }
+
+/* SERVICES STYLING */
 /* Services page styles */
 #Services { 
   * {
@@ -252,7 +261,8 @@ i {
   }
 
 }
-/* Contact page styles */
+
+/* CONTACT PAGE MESSAGE STYLING */
  #Contact { 
 
   *{
@@ -267,6 +277,7 @@ body, input,textarea, a{
     font-family: 'Poppins', sans-serif;
 }
 }
+
 #section-wrapper{
     width: 100%;
     padding: 10px;
@@ -363,6 +374,7 @@ body, input,textarea, a{
     width: 100%;
     padding: 15px 5px 5px 5px;
 }
+
 .form-fields input,
 .form-fields textarea{
     border: none;
@@ -373,9 +385,11 @@ body, input,textarea, a{
     padding: 20px 10px 20px 5px;
     width:100%
 }
+
 .form-fields textarea{
     height: 150px;
     resize: none;
+
 }
 .form-group{
     width: 46%;
@@ -384,10 +398,12 @@ body, input,textarea, a{
     margin: 14px 12px;
     border-radius: 25px;
     box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
+
 }
 .form-fields .form-group:last-child {
     width: 96%;
 }
+
 .submit-button{
     width: 96%;
     height: 60px;
@@ -403,11 +419,13 @@ body, input,textarea, a{
     background: #e13a14;
     box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #ffffff;
     transition: .5s;
+
 }
 .submit-button:hover{
     background: #31279d;
 }
-/* Responsive css */
+
+/* RESPONSIVE STYLING FOR CONTACT */
 @media only screen and (max-width: 767px) {
     .box-wrapper{
         width: 100%;
@@ -439,5 +457,7 @@ body, input,textarea, a{
    
 }
 
-/* Footer */
+/* FOOTER STYLING */
 .footer {
+
+}
