@@ -3,6 +3,7 @@ body {
   margin: 0;
 }
 
+/* Responsive breakpoints */
 @media (max-width: 600px){
   body {
       background: rgb(222, 219, 230);
