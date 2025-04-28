@@ -183,12 +183,13 @@ li a:hover {
   margin: 20px auto;
   padding: 20px;
   background white;
-  box-shadow: 0px 0px 10px rgba(96, 241, 120, 0.6);
-  border-radius: 8px;
+  box-shadow: 0px 0px 22px rgba(96, 241, 120, 0.6);
+  border-radius: 20px;
 }
 
 h1,p {
   text-align: center;
+  font-size: 1.6em
 
 }
 
@@ -314,6 +315,10 @@ i {
   text-decoration: none;
 }
 
+#main {
+
+}
+
 @media (max-width: 768px) {
   .service-card {
       width: 100%;
@@ -324,7 +329,9 @@ i {
 }
 
 /* CONTACT PAGE MESSAGE STYLING */
- 
+ #Contact {
+  
+ }
 .contact-section {
   display: flex;
   flex-direction: column;
@@ -359,10 +366,16 @@ i {
 .contact-form-heading {
   font-size: 3em;
   margin: 0;
+  font-size: 3rem;
+  color: rgb(12, 73, 108);
+  text-align: start;
 }
 .contact-form-intro {
   font-size: 1.5em;
   margin-bottom: 20px;
+  font-size: 3rem;
+  color: rgb(71, 5, 38);
+  text-align: end;
 }
 .contact-input {
   display: block;
@@ -371,34 +384,34 @@ i {
   border-radius: 20px;
   padding: 8px 20px;
   font-size: 1em;
-  border: 2px solid #333333;
+  border: 2px solid #1d1a1a;
 }
 .contact-textarea {
   max-width: 300px;
   padding: 16px 20px;
-  border: 2px solid #333333;
+  border: 2px solid #a76f6f;
 }
 .contact-input::-webkit-input-placeholder, .address-input::-webkit-input-placeholder {
-  color: #555555;
+  color: #928e95;
 }
 .contact-submit-button {
-  border: 2px solid #333333;
+  border: 2px solid #c71a11;
   padding: 8px 20px;
   border-radius: 40px;
   margin: 10px auto 0;
   min-width: 120px;
 }
 .contact-submit-button:hover {
-  background-color: #dddddd;
+  background-color: #e1eee6;
   cursor: pointer;
 }
 
-.popover-message {
+/* .popover-message {
   display: block;
   margin-top: 10px;
-  color: #e12938;
-  font-size: 0.9rem;
-}
+  color: #b8222f;
+  font-size: 0.9rem; */
+/* } */
 .contact-submit-button:disabled {
   border-color: #aaaaaa;
 }
@@ -429,4 +442,9 @@ i {
   padding: 0;
   margin-bottom: 14px;
   border: none;
+}
+
+.site-footer {
+  font-size: 3rem;
+  color: rgb(11, 91, 11);
 }
