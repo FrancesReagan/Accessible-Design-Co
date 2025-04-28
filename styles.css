@@ -261,7 +261,7 @@ h1 {
 }
 
 h1::after {
-  /* content: ""; */
+  content: "";
   position: absolute;
   width: 75%;
   height: 5px;
@@ -330,7 +330,7 @@ i {
 
 /* CONTACT PAGE MESSAGE STYLING */
  #Contact {
-  
+
  }
 .contact-section {
   display: flex;
