@@ -532,27 +532,18 @@ body, input,textarea, a{
     font-weight: 200;
 }
 
-.footer-menu{
-  float: right;
-
-}
-
-.footer-menu ul{
-  display: flex;
-}
-
 .footer-menu ul li{
 padding-right: 10px;
 display: block;
 }
 
 .footer-menu ul li a{
-  color: #cfd2d6;
+  color: #0d1013;
   text-decoration: none;
 }
 
 .footer-menu ul li a:hover{
-  color: #27bcda;
+  color: #1b108d;
 }
 
 @media (max-width:500px) {
