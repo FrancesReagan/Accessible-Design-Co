@@ -50,7 +50,7 @@ LOGO STYLING
 .hero {
   position: relative;
   background:  center/cover no-repeat;
-  height: 100em;
+  height: 40em;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -71,25 +71,25 @@ LOGO STYLING
   text-align: center;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
   color: #0e030f;
-  z-index: 6
+  z-index: 3
 }
 
 .hero-title {
   font-size: 5em;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   animation: fadeInUp 1s ease-in-out;
 }
 
 .hero-subtitle {
   font-size: 3em;
-  margin-bottom: 30px;
+  margin-bottom: 5px;
   animation: fadeInUp 1s ease-in-out 0.5s;
 }
 
 .hero-mission {
   font-size: 2em;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 5px;
   animation: fadeInUp 1s ease-in-out 0.5s;
 }
 
@@ -99,13 +99,13 @@ LOGO STYLING
   font-size: 1.8em;
   text-decoration: none;
   color: #200c0c;
-  background-color: #f52424;
-  border-radius: 40px;
+  background-color: #eb6868;
+  border-radius: 100px;
   transition: background-color 0.3s ease-in-out;
 }
 
 .hero-button:hover {
-  background-color: #08ceff;
+  background-color: #0dd6e1;
 }
 
 @keyframes fadeInUp {
@@ -276,14 +276,14 @@ h1 {
   margin: 2rem auto 5rem auto;
 }
 
-h1::after {
+/* h1::after {
   content: "";
   position: absolute;
   width: 75%;
   height: 5px;
-  background-color: rgb(18, 116, 18);
+  background-color: rgb(163, 179, 163);
   bottom: -2rem;
-  left: 25px;
+  left: 25px; */
 }
 
 i {
