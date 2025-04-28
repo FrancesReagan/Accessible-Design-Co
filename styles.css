@@ -3,7 +3,7 @@ body {
   margin: 0;
 }
 
-/* Responsive breakpoints */
+
 @media (max-width: 600px){
   body {
       background: rgb(222, 219, 230);
@@ -29,6 +29,15 @@ h1 {
 
 }
 
+h2 {
+  text-align: center;
+  color: rgb(33, 10, 10);
+  font-size: 3em;
+  width:100%;
+  height:auto;
+
+}
+
 LOGO STYLING
 #ADC-logo {
   position:relative;
@@ -41,7 +50,7 @@ LOGO STYLING
 .hero {
   position: relative;
   background:  center/cover no-repeat;
-  height: 100vh;
+  height: 100em;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -73,6 +82,13 @@ LOGO STYLING
 
 .hero-subtitle {
   font-size: 3em;
+  margin-bottom: 30px;
+  animation: fadeInUp 1s ease-in-out 0.5s;
+}
+
+.hero-mission {
+  font-size: 2em;
+  text-align: center;
   margin-bottom: 30px;
   animation: fadeInUp 1s ease-in-out 0.5s;
 }
