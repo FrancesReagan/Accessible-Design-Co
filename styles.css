@@ -29,7 +29,7 @@ h1 {
 
 }
 
-/* LOGO STYLING */
+LOGO STYLING
 #ADC-logo {
   position:relative;
   display:block;
@@ -187,9 +187,9 @@ li a:hover {
   border-radius: 20px;
 }
 
-h1,p {
+p {
   text-align: center;
-  font-size: 1.6em
+  font-size: 1em
 
 }
 
