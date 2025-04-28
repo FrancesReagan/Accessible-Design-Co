@@ -141,8 +141,6 @@ li a:hover {
     font-size: 2rem;
     padding: 0 6px;
   }
-
-  
 }
 
 @media screen and (max-width: 1200px) {
@@ -156,7 +154,6 @@ li a:hover {
     padding: 0 6px;
   }
 
-  
 }
 
 
@@ -295,7 +292,6 @@ i {
 
 /* CONTACT PAGE MESSAGE STYLING */
  #Contact { 
-
   *{
     padding: 0;
     margin: 0;
@@ -304,16 +300,17 @@ i {
 body{
     background: #4068cd; 
 }
-body, input,textarea, a{
+body, input,textarea, a {
     font-family: 'Poppins', sans-serif;
 }
 }
 
-#section-wrapper{
+#section-wrapper {
     width: 100%;
     padding: 10px;
+}
 
-.box-wrapper{
+.box-wrapper {
     position: relative;
     display: table;
     width:1100px;
@@ -321,7 +318,7 @@ body, input,textarea, a{
     margin-top:35px;
     border-radius: 30px;
 }
-.info-wrap{
+.info-wrap {
     width:35%;
     height: 551px;
     padding: 40px;
@@ -331,12 +328,12 @@ body, input,textarea, a{
     background: linear-gradient(144deg, rgb(6, 113, 38) 0%, rgb(39, 153, 157) 49%);
     color: #fff;
 }
-.info-title{
+.info-title {
     text-align: left;
     font-size: 1.75rem;
     letter-spacing: 0.5px;
 }
-.info-sub-title{
+.info-sub-title {
     font-size: 1.125rem;
     font-weight: 300;
     margin-top: 17px;
@@ -519,30 +516,29 @@ body, input,textarea, a{
   text-transform: capitalize;
 }
 
-}
-.footer-bottom p a{
+.footer-bottom p a {
   color:#44bae8;
   font-size: 16px;
   text-decoration: none;
 }
 
-.footer-bottom span{
+.footer-bottom span {
     text-transform: uppercase;
     opacity: .4;
     font-weight: 200;
 }
 
-.footer-menu ul li{
+.footer-menu ul li {
 padding-right: 10px;
 display: block;
 }
 
-.footer-menu ul li a{
+.footer-menu ul li a {
   color: #0d1013;
   text-decoration: none;
 }
 
-.footer-menu ul li a:hover{
+.footer-menu ul li a:hover {
   color: #1b108d;
 }
 
