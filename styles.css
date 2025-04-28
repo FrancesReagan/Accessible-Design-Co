@@ -43,7 +43,7 @@ h1 {
   text-align: center;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
   color: #0e030f;
-  z-index: 2;
+  z-index: 6
 }
 
 .hero-title {
@@ -177,7 +177,7 @@ h1,p {
 
 .feature {
   display: flex;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   justify-content: center;
   gap: 20px
   margin-top: 20px
@@ -193,14 +193,13 @@ h1,p {
 }
 
 .card img {
-  width:10px
-  height: 10px
+  width:20x
+  height: 20x
   border-radius:50%
   object-fit: cover;
 }
 
 /* SERVICES STYLING */
-/* Services page styles */
 #Services { 
   * {
   box-sizing: border-box;
