@@ -161,10 +161,43 @@ li a:hover {
 
 
 /* ABOUT US HISTORY STYLING */
-.About-Us {
 
+#card-Reagan{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+#card-Assaf{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+  
+.flex-container {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  font-size:2rem
+  color: rgb(15, 7, 7);
+  background-color: #089f35;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
 }
 
+.button:hover {
+  background-color: #1ae338;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
 /* SERVICES STYLING */
 /* Services page styles */
 #Services { 
