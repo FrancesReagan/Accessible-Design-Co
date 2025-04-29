@@ -474,7 +474,7 @@ i {
   color: #1a1414;
 }
 .social-links p {
-  display: inline;
+  display: flex;
   font-size: 1rem;
 }
 .social-links ion-icon {
