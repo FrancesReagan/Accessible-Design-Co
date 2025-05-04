@@ -9,16 +9,7 @@ body {
       background: rgb(222, 219, 230);
   }
 }
-@media (max-width: 500px){
-  body {
-      background: rgb(230, 218, 218);
-  }
-}
-@media (max-width: 400px){
-  body {
-      background: rgb(237, 174, 179);
-  }
-}
+
 @media (max-width: 1024px){
   body {
       background: rgb(222, 219, 230);
